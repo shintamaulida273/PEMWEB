@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #37AFE1;
+    color: WHITE;
+    padding: 30px;
+    font-weight: bolder;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header .title {
+    margin-left: 10px;
+}
+.header .nav {
+    margin-left: 10px;
+}
+.header .nav a {
+    color: #03346E;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    /*height: calc(100vh-80px);*/
+}
+.sidebar {
+    background-color: #4CC9FE;
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.sidebar h2 {
+    color: white;
+    text-align: center;
+}
+/*.sidebar p {
+    color: white;
+    text-align: center;
+}*/
+.sidebar .box {
+    background-color: white;
+    color: #03346E;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.main-content {
+    background-color: #F5F4B3;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-content h2 {
+    color:  #03346E;
+    text-align: center;
+}
+.main-content p {
+    color:  #03346E;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-content .box {
+    background-color: #03346E;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;}
+    /*display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: calc(30%-20px);
+}
+/*.main-content .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 30%;
+    height: 100px;
+    background-color: #03346E;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;  
+}*/
+.footer {
+    background-color: #37AFE1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    margin-top: 10px;
+    width: 98%;
+}
+/* pseudo class */
+a:link, a:visited, a:active{ /* tulisan navigation */
+    font-size: 15px;
+    color: #1E3E62;
+    text-decoration: bold;
+}
+a:hover{
+    text-decoration: dashed;
+    border: 1px solid white;
+    padding: 0px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+}

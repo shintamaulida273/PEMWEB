@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir</title>
+    </head>
+    <body>
+        <form name="Formulir">
+            <table align="center" width="60%" border="0" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr bgcolor="#4CC9FE">
+                        <th colspan="2">FORMULIR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nama</td>
+                        <td>
+                            <input type="text" name="nama_siswa" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" name="text" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="jk" value="L"> Pria
+                            <input type="radio" name="jk" value="P"> Wanita
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Hobby</td>
+                        <td>
+                            <input type="checkbox" name="hb" value="Memasak"/>Memasak<br/>
+                            <input type="checkbox" name="hb" value="Membaca"/>Membaca<br/>
+                            <input type="checkbox" name="hb" value="Menulis"/>Menulis<br/>
+                            <input type="checkbox" name="hb" value="Olahraga"/>Olahraga<br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pendidikan</td>
+                        <td>
+                            <select name="pendidikan">
+                                <option value="">-- Pilih Pendidikan Terakhir</option>
+                                <option value="SMA">SMA</option>
+                                <option value="D3">D3</option>
+                                <option value="S1">S1</option>
+                                <option value="S2">S2</option>
+                                <option value="S3">S3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Alamat</td>
+                        <td>
+                            <textarea name="Alamat" cols="100" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tfoot>
+                        <tr bgcolor="#4CC9FE">
+                            <th colspan="2">
+                                <input type="submit" name="simpan" value="Simpan">
+                                <input type="submit" name="batal" value="Batal">
+                            </th>
+                        </tr>
+                    </tfoot>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
