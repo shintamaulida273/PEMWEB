@@ -1,0 +1,55 @@
+body{
+    margin: 0.5cm 0.5cm;
+}
+h1{
+    text-transform: uppercase; 
+    color: #1E3E62; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    letter-spacing: 3px;
+}
+hr{
+    border: blue 2px dotted; 
+}
+p, li, legend{ /* grouping */
+    text-align: justify;
+    color: #1E3E62;
+    line-height: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+legend, fieldset{
+    border: 5px ridge red;
+    padding: 2px 5px;
+    border-radius: 15px;
+    border-color: cornflowerblue;
+    background: linear-gradient(lightblue, white);
+    border-style: ridge;
+    cursor: url(../../Downloads/api.htm), auto;
+}
+/* pseudo class */
+a:link, a:visited, a:active{ /* tulisan navigation */
+    font-size: 15px;
+    color: #1E3E62;
+    text-decoration: bold;
+}
+a:hover{
+    text-decoration: dashed;
+    border: 1px solid white;
+    padding: 0px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+}
+/* pseudo class */
+a:link, a:visited, a:active{ /* tulisan navigation */
+    font-size: 15px;
+    color: #1E3E62;
+    text-decoration: bold;
+}
+a:hover{
+    text-decoration: dashed;
+    border: 1px solid white;
+    padding: 0px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+}
